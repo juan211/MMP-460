@@ -1,0 +1,63 @@
+body {
+	margin: 0;
+}
+
+#map {
+    width:1000px;
+	height:1000px;
+	display:inline-block;
+	background:#777;
+	margin:20px;
+	box-sizing: border-box;
+	
+	
+
+
+}
+
+
+body {
+    background-color: yellow; 
+    color: lightgray;
+}
+
+h1{
+	text-align: center;
+	color:red;
+	font-size:50px;
+	
+		
+}
+h2 {
+	text-align: center;
+		color:blue;
+	
+}
+h3 {
+	text-align: center;
+		color: yellow;
+}
+
+p{
+	text-align: center;
+		color:magenta;
+}
+p1{
+	text-align: center;
+		color:Yellow;
+	font-size:30px;
+}
+li{
+	 font-size:30px;
+	  color: red;
+}
+
+#todoForm{
+	text-align:left;
+	margin:20px;
+	font-size:50px;
+	width:800px;
+	max-width:100%;
+	
+}
+
