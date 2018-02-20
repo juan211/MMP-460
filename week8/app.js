@@ -25,7 +25,7 @@ $(document).ready(function () {
 						cards.push(div);
 					}
 				}
-				var score = [];
+				
 
 
 
