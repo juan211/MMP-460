@@ -12,7 +12,10 @@ body{
 }
 
 h1{
-    font-size: 1.75em;/*31.5px*/
+    font-size: 1.89em;
+    right:100px;
+    max-width: 100%;
+	letter-spacing: 0.07em;
    
 }
 

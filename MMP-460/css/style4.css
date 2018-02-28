@@ -10,12 +10,10 @@ body {
 }
 
 h1 {
-	font-size: 1.89em;
-	right: 200px;
-	width: 900px;
-	height: 40px;
+	    font-size: 1.89em;
+    right:100px;
+    max-width: 100%;
 	letter-spacing: 0.07em;
-	float: right;
 
 
 

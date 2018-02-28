@@ -12,12 +12,10 @@ body{
 }
 
 h1{
-    font-size: 1.85em;
-    top: 0px;
-    right:0;
-    width: 500px;
-    height: 10px;
-	letter-spacing: 0.06em;
+    font-size: 1.89em;
+    right:100px;
+    max-width: 100%;
+	letter-spacing: 0.07em;
 
 	
    
