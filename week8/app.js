@@ -3,7 +3,7 @@ $(document).ready(function () {
 		if (event.keyCode == 13) {
 			var query = this.value;
 			var key = "9aBex1AHPgGeOnbnh6CLGCtEw2oCyr6p";
-			var url = "http://api.giphy.com/v1/gifs/search?q=" + query + "&api_key=" + key + "&limit=20";
+			var url = "https://api.giphy.com/v1/gifs/search?q=" + query + "&api_key=" + key + "&limit=20";
 			$.getJSON(url, function (json) {
 
 				var cards = [];
