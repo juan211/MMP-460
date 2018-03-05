@@ -6,9 +6,9 @@ body{
     font-size:18px;
     margin:0;
     padding:0;
- 
     letter-spacing: 0.02em;
     word-spacing: .15em;
+	
 }
 
 h1{
@@ -16,8 +16,24 @@ h1{
     right:100px;
     max-width: 100%;
 	letter-spacing: 0.07em;
+
+	
    
 }
+
+p{
+	
+    top:100px;
+    right:50px;
+	height:auto;
+	letter-spacing: 0.1em;
+   
+	
+	
+	
+}
+
+
 
 
 ul.top-nav {
@@ -25,21 +41,32 @@ ul.top-nav {
     margin:0;
     padding:0;
     overflow: hidden;
-    background-color: grey;
+    background-color:black;
 }
 ul.top-nav li{
     float:left;
-    margin:0 2.2% 0 2%;
-	background-color: white;
+    margin:0 2.4% 0 5%;
+	background-color:White;
+	
 }
 ul.top-nav li.icon {
     display: none;
 }
 
 img{
-    max-width:100%;
+  
     height:auto;
-	display: flex;
+	max-width:100%;
+	
+
+
+	
+    
+   
+   
+  
+    
+	
 }
 
 p, h1, h2, h3{
@@ -172,6 +199,12 @@ footer{
 
 
 
+img{
+    margin-right: auto;
+    height: auto;
+	max-width: 100%;
+	
+}
 
 
 
