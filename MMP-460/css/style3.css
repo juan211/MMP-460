@@ -12,11 +12,10 @@ body{
 }
 
 h1{
-        font-size: 1.89em;
-    right:100px;
+    font-size: 2.1em;
     max-width: 100%;
 	letter-spacing: 0.07em;
-
+	left:200px;
 	
    
 }
@@ -39,11 +38,11 @@ ul.top-nav {
     margin:0;
     padding:0;
     overflow: hidden;
-    background-color:black;
+    background-color:#f1f1f1;
 }
 ul.top-nav li{
     float:left;
-    margin:0 2.2% 0 2%;
+  margin: 0 .2% 0 2%;
 	background-color:white;
 	
 }
@@ -108,7 +107,7 @@ footer{
         width:auto;
     }
    ul.top-nav li:first-child{
-        display:block;
+      
     }
     h1{
         margin-top: 2.5em;   
