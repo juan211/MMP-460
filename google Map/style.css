@@ -1,0 +1,35 @@
+body {
+	margin: 0;
+}
+
+#map {
+    width:500px;
+	height:500px;
+	background:#777;
+	margin:20px;
+	box-sizing: border-box;
+	max-width: 100%;
+	
+}
+
+
+body {
+    background-color: yellow; 
+    color: lightgray;
+}
+
+h1{
+	text-align: center;
+	color:grey;
+	font-size:50px;
+	
+		
+}
+
+li{
+	 font-size:30px;
+	  color: red;
+}
+
+
+
