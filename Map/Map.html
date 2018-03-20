@@ -1,0 +1,48 @@
+<html>
+<head>
+   	
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7kbNL_JJUpKfUnjO9p3m7mQTDq1blY8Q&callback=initMap"></script>
+    <script type="text/javascript">
+        var locations = [
+            ['New Construction', 40.724272, -73.982590, 1],
+            ['New Construction', 40.722057, -73.982150, 2],
+            ['New Construction', 40.721390, -73.979364, 3],
+            ['Null', 40.721504, -73.981631, 4],
+            ['Null', 40.722364, -73.981675, 5],
+            ['in Construction', 40.722714, -73.980455, 6]
+        ];
+ 
+        function InitMap() {
+ 
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 13,
+                center: new google.maps.LatLng(40.712775, -74.005973),
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            });
+ 
+            var infowindow = new google.maps.InfoWindow();
+ 
+            var marker, i;
+ 
+            for (i = 0; i < locations.length; i++) {
+                marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+                    map: map
+                });
+ 
+                google.maps.event.addListener(marker, 'click', (function (marker, i) {
+                    return function () {
+                        infowindow.setContent(locations[i][0]);
+                        infowindow.open(map, marker);
+                    }
+                })(marker, i));
+            }
+        }
+    </script>
+</head>
+<body onload="InitMap();">
+    <h1>Lower East Side People's Mutual Housing Association|Locations.</h1>
+    <div id="map" style="height: 500px; width: auto;">
+    </div>
+</body>
+</html>
